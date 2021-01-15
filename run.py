@@ -1,14 +1,12 @@
 # coding=UTF-8
 import pytest
 
-from base.Log import MyLog
 from result.report.configEmail import MyEmail
 from base.common import logger
 
 class Run:
     def __init__(self):
-        # log = MyLog.get_log()    #注意这里要使用MyLog中的线程锁，否则log日志会重复
-        self.logger = logger
+        self.logger = logger    #启动log日志功能
 
 
     def run(self):
@@ -34,7 +32,6 @@ class Run:
         # self.logger.info("**********发送邮件**********")
         # email = MyEmail.get_email()
         # email.send_email()
-
 
 
 if __name__ == '__main__':

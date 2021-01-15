@@ -23,7 +23,7 @@ class Test_ZcZcrk():
 
     @pytest.mark.run(order=1)   #测试用例执行顺序，在有需要的时候再用，还有其他使用方法具体用到再看
     @allure.story("资产入库查询的story")
-    @pytest.mark.parametrize("data", yml_data['query'])  # 这个会出现在测试报告的Parameters中,这里数据驱动数据存在py文件中
+    @pytest.mark.parametrize("data", yml_data['query'])  # 通过yml_data字典key值获取各自接口的数据，如这里的query对应的是查询接口的数据
     def test_AQuery(self, data):
         """资产入库--查询"""  #这个信息会出现在测试报告的Description中，相当于@allure.description
         with allure.step('初始化数据'):

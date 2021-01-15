@@ -5,7 +5,6 @@ from base.common import localConfigHttp as configHttp
 
 
 def Query(cls, setparam):
-    # print("第二步：设置访问的url")
     cls.logger.info("第二步：设置访问的url")
     configHttp.set_url('E_Gdzc_3/gdzc/inputAction!listGridJson.action')
     cls.logger.info("第三步：设置发送请求的参数")
@@ -23,46 +22,37 @@ def Query(cls, setparam):
 
     configHttp.set_data(string)
     cls.logger.info("第三步：设置成功，发送的请求参数为： " + str(string))
-    # print("第三步：设置成功，发送的请求参数为： " + str(data))
     cls.logger.info("第四步：发送请求")
-    # print("第四步：发送" + self.setparam.method + "请求")
     response = configHttp.post()
     return response
 
 
 def Add(cls, setparam):
-    # print("第二步：设置访问的url")
     cls.logger.info("第二步：设置访问的url")
     configHttp.set_url('E_Gdzc_3/gdzc/inputAction!save_new.action')
     cls.logger.info("第三步：设置发送请求的参数")
     string = setparam.AddData
     configHttp.set_data(string)
     cls.logger.info("第三步：设置成功，发送的请求参数为： " + str(string))
-    # print("第三步：设置成功，发送的请求参数为： " + str(data))
     cls.logger.info("第四步：发送请求")
-    # print("第四步：发送" + self.setparam.method + "请求")
     response = configHttp.post()
     return response
 
 
 def Update(cls, setparam):
-    # print("第二步：设置访问的url")
     cls.logger.info("第二步：设置访问的url")
     configHttp.set_url('E_Gdzc_3/gdzc/repairAction!modify.action')
     cls.logger.info("第三步：设置发送请求的参数")
     string = setparam.UpdateData
     configHttp.set_data(string)
     cls.logger.info("第三步：设置成功，发送的请求参数为： " + str(string))
-    # print("第三步：设置成功，发送的请求参数为： " + str(data))
     cls.logger.info("第四步：发送请求")
-    # print("第四步：发送" + self.setparam.method + "请求")
     response = configHttp.post()
     return response
 
 
 def Delete(cls, setparam):
     DeleteData = Query(cls, setparam).json()['root'][0]['change_guid']
-    # print("第二步：设置访问的url")
     cls.logger.info("第二步：设置访问的url")
     url = 'E_Gdzc_3/gdzc/inputAction!delete.action?change_guid=20201225171350820_35032B7E7D104BB4B56ACA480478487D'
     url = url.replace('20201225171350820_35032B7E7D104BB4B56ACA480478487D', DeleteData)
@@ -71,9 +61,7 @@ def Delete(cls, setparam):
     # string = setparam.DeleteData+DeleteData  这里没有请求参数
     # configHttp.set_data(string)
     # cls.logger.info("第三步：设置成功，发送的请求参数为： " + str(string))
-    # print("第三步：设置成功，发送的请求参数为： " + str(data))
     cls.logger.info("第四步：发送请求")
-    # print("第四步：发送" + self.setparam.method + "请求")
     response = configHttp.post()
     return response
 
