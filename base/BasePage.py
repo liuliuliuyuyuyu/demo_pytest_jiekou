@@ -11,7 +11,8 @@ class BasePage:
     def login():
         # print("第一步：设置header(token等)")
         # self.logger.info("第一步：设置header(token等)")
-        token = readConfig.ReadConfig().get_headers("User-Agent")
+        readconfig = readConfig.ReadConfig()
+        token = readconfig.get_headers("User-Agent")
         # set headers         设置请求头
         headers = {
             "User-Agent": str(token),

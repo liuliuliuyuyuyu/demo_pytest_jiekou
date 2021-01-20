@@ -2,94 +2,55 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "testcase",
+    "name" : "testcase.case",
     "children" : [ {
-      "name" : "test_rkdsh",
+      "name" : "test_ZcZcrk",
       "children" : [ {
-        "name" : "Test_rkdsh",
+        "name" : "Test_ZcZcrk",
         "children" : [ {
-          "name" : "test_demo1[test_info0]",
-          "uid" : "b1356c7f1f0c0e63",
-          "parentUid" : "685ecaa836f141465dc08ba1b196695f",
-          "status" : "passed",
+          "name" : "test_AQuery[data0]",
+          "uid" : "8197e597f76392d0",
+          "parentUid" : "1f9757e06c7adb466e1e2b78305d7e05",
+          "status" : "broken",
           "time" : {
-            "start" : 1610508354376,
-            "stop" : 1610508355532,
-            "duration" : 1156
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "['RK202012001', 'RK202012001']" ]
-        }, {
-          "name" : "test_demo1[test_info1]",
-          "uid" : "ffc89e7028aa2898",
-          "parentUid" : "685ecaa836f141465dc08ba1b196695f",
-          "status" : "passed",
-          "time" : {
-            "start" : 1610508359516,
-            "stop" : 1610508360671,
-            "duration" : 1155
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "['RK202012002', 'RK202012002']" ]
-        }, {
-          "name" : "test_demo1[test_info2]",
-          "uid" : "26e1596e862cccce",
-          "parentUid" : "685ecaa836f141465dc08ba1b196695f",
-          "status" : "passed",
-          "time" : {
-            "start" : 1610508364506,
-            "stop" : 1610508365639,
-            "duration" : 1133
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "['RK202012003', 'RK202012003']" ]
-        }, {
-          "name" : "test_demo2[test_info0]",
-          "uid" : "96ed633542387d08",
-          "parentUid" : "685ecaa836f141465dc08ba1b196695f",
-          "status" : "passed",
-          "time" : {
-            "start" : 1610508369492,
-            "stop" : 1610508371108,
-            "duration" : 1616
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "['RK202012002', 'RK202012002']" ]
-        }, {
-          "name" : "test_demo3",
-          "uid" : "e8b9fbdf9a14ca3b",
-          "parentUid" : "685ecaa836f141465dc08ba1b196695f",
-          "status" : "passed",
-          "time" : {
-            "start" : 1610508377284,
-            "stop" : 1610508377284,
+            "start" : 1611041195325,
+            "stop" : 1611041195325,
             "duration" : 0
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ ]
+          "parameters" : [ "{'result': '0', 'code2': 'CK201908005', 'code3': '2019-08-31', 'QueryData': 'start=0&limit=11&begin_str_change_id=CK201908005&end_str_change_id=CK201908005&yewuorreal=yewu&begin_change_time=2019-08-31&end_change_time=2019-08-31&difMonth=0&username_1=%E4%BD%99%E7%BE%8E%E7%90%B4&dept_id_2=1010102%20%E5%91%BC%E5%90%B8%E5%86%85%E7%A7%91%E9%97%A8%E8%AF%8A&output_pzh=&customselect=fapiaohao&custom=&is_check=1&canggy=%E7%B3%BB%E7%BB%9F%E7%94%A8%E6%88%B7&remove='}" ]
         }, {
-          "name" : "test_demo4",
-          "uid" : "4a7184618b993ff9",
-          "parentUid" : "685ecaa836f141465dc08ba1b196695f",
-          "status" : "skipped",
+          "name" : "test_AQuery[data1]",
+          "uid" : "f6c2d40e9593fec5",
+          "parentUid" : "1f9757e06c7adb466e1e2b78305d7e05",
+          "status" : "broken",
           "time" : {
-            "start" : 1610508377291,
-            "stop" : 1610508377291,
+            "start" : 1611041197953,
+            "stop" : 1611041197953,
             "duration" : 0
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ ]
+          "parameters" : [ "{'result': '0', 'code2': 'CK202101001', 'code3': '2021-01-05', 'QueryData': 'start=0&limit=11&begin_str_change_id=CK202101001&end_str_change_id=CK202101001&yewuorreal=yewu&begin_change_time=2021-01-05&end_change_time=2021-01-05&difMonth=0&username_1=%E6%98%93%E7%A2%A7%E5%85%B0&dept_id_2=1010103%20%E5%91%BC%E5%90%B8%E7%A7%91(53%E5%8C%BA)&output_pzh=&customselect=fapiaohao&custom=17145219&is_check=0&canggy=%E7%B3%BB%E7%BB%9F%E7%94%A8%E6%88%B7&remove='}" ]
+        }, {
+          "name" : "test_AQuery[data2]",
+          "uid" : "7c0732a0862c509b",
+          "parentUid" : "1f9757e06c7adb466e1e2b78305d7e05",
+          "status" : "broken",
+          "time" : {
+            "start" : 1611041198145,
+            "stop" : 1611041198145,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'result': '1', 'code2': '', 'code3': '', 'QueryData': 'start=0&limit=11&begin_str_change_id=&end_str_change_id=&yewuorreal=yewu&begin_change_time=2019-08-01&end_change_time=2021-01-31&difMonth=0&username_1=&dept_id_2=&output_pzh=&customselect=fapiaohao&custom=&is_check=&canggy=&remove='}" ]
         } ],
-        "uid" : "685ecaa836f141465dc08ba1b196695f"
+        "uid" : "1f9757e06c7adb466e1e2b78305d7e05"
       } ],
-      "uid" : "79008fe986612569bb5cd55580539ad6"
+      "uid" : "30ddc39d646b947721d02d6705adbceb"
     } ],
-    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+    "uid" : "f01da55d1f9d9c84df8a18bd74056627"
   } ]
 }

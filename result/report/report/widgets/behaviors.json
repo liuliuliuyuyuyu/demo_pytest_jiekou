@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "5cdff4df71c1ad5917c83aa9d6a6f75d",
-    "name" : "入库单审核查询功能测试feature",
+    "uid" : "60f186c189354a967df06ded4d37fa80",
+    "name" : "资产入库模块的feature",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 3,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 1
     }
   } ]
 }

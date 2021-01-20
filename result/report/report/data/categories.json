@@ -1,5 +1,52 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='114.115.205.214', port=8686): Max retries exceeded with url: /Ecan_Platform/loginAction!loginSystem.action (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E1764E72B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "children" : [ {
+        "name" : "test_AQuery[data0]",
+        "uid" : "8197e597f76392d0",
+        "parentUid" : "bccf68d074e03503999a89e46fda7e36",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611041195325,
+          "stop" : 1611041195325,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'result': '0', 'code2': 'CK201908005', 'code3': '2019-08-31', 'QueryData': 'start=0&limit=11&begin_str_change_id=CK201908005&end_str_change_id=CK201908005&yewuorreal=yewu&begin_change_time=2019-08-31&end_change_time=2019-08-31&difMonth=0&username_1=%E4%BD%99%E7%BE%8E%E7%90%B4&dept_id_2=1010102%20%E5%91%BC%E5%90%B8%E5%86%85%E7%A7%91%E9%97%A8%E8%AF%8A&output_pzh=&customselect=fapiaohao&custom=&is_check=1&canggy=%E7%B3%BB%E7%BB%9F%E7%94%A8%E6%88%B7&remove='}" ]
+      }, {
+        "name" : "test_AQuery[data1]",
+        "uid" : "f6c2d40e9593fec5",
+        "parentUid" : "bccf68d074e03503999a89e46fda7e36",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611041197953,
+          "stop" : 1611041197953,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'result': '0', 'code2': 'CK202101001', 'code3': '2021-01-05', 'QueryData': 'start=0&limit=11&begin_str_change_id=CK202101001&end_str_change_id=CK202101001&yewuorreal=yewu&begin_change_time=2021-01-05&end_change_time=2021-01-05&difMonth=0&username_1=%E6%98%93%E7%A2%A7%E5%85%B0&dept_id_2=1010103%20%E5%91%BC%E5%90%B8%E7%A7%91(53%E5%8C%BA)&output_pzh=&customselect=fapiaohao&custom=17145219&is_check=0&canggy=%E7%B3%BB%E7%BB%9F%E7%94%A8%E6%88%B7&remove='}" ]
+      }, {
+        "name" : "test_AQuery[data2]",
+        "uid" : "7c0732a0862c509b",
+        "parentUid" : "bccf68d074e03503999a89e46fda7e36",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611041198145,
+          "stop" : 1611041198145,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'result': '1', 'code2': '', 'code3': '', 'QueryData': 'start=0&limit=11&begin_str_change_id=&end_str_change_id=&yewuorreal=yewu&begin_change_time=2019-08-01&end_change_time=2021-01-31&difMonth=0&username_1=&dept_id_2=&output_pzh=&customselect=fapiaohao&custom=&is_check=&canggy=&remove='}" ]
+      } ],
+      "uid" : "bccf68d074e03503999a89e46fda7e36"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

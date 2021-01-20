@@ -1,116 +1,61 @@
 {
-  "c922e9c2e6b1ce8b59e534404ebdcfce" : {
+  "785c6e0ce2099fb704850ee0c0cf9c7c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
+      "broken" : 1,
+      "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4a7184618b993ff9",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: 本次不执行",
+      "uid" : "8197e597f76392d0",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='114.115.205.214', port=8686): Max retries exceeded with url: /Ecan_Platform/loginAction!loginSystem.action (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E1764E72B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
       "time" : {
-        "start" : 1610508377291,
-        "stop" : 1610508377291,
+        "start" : 1611041195325,
+        "stop" : 1611041195325,
         "duration" : 0
       }
     } ]
   },
-  "2ef6ff90f729141051c5e4d78eeed30c" : {
+  "03d9b9a4667add8175d64a16ed3109fb" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b1356c7f1f0c0e63",
-      "status" : "passed",
+      "uid" : "f6c2d40e9593fec5",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='114.115.205.214', port=8686): Max retries exceeded with url: /Ecan_Platform/loginAction!loginSystem.action (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E1764E72B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
       "time" : {
-        "start" : 1610508354376,
-        "stop" : 1610508355532,
-        "duration" : 1156
-      }
-    } ]
-  },
-  "09a86dab51d096be210705fbcde58fee" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "96ed633542387d08",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610508369492,
-        "stop" : 1610508371108,
-        "duration" : 1616
-      }
-    } ]
-  },
-  "a21e44a507cd9dbb290c1405b854c239" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "26e1596e862cccce",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610508364506,
-        "stop" : 1610508365639,
-        "duration" : 1133
-      }
-    } ]
-  },
-  "84691b1cdd448eba2f2f830036085882" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e8b9fbdf9a14ca3b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610508377284,
-        "stop" : 1610508377284,
+        "start" : 1611041197953,
+        "stop" : 1611041197953,
         "duration" : 0
       }
     } ]
   },
-  "db597b0fbf7144893df7b5ed5577d0eb" : {
+  "2d7c89c5f97a6e2ae37465f4f6bca5fd" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ffc89e7028aa2898",
-      "status" : "passed",
+      "uid" : "7c0732a0862c509b",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='114.115.205.214', port=8686): Max retries exceeded with url: /Ecan_Platform/loginAction!loginSystem.action (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E1764E72B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
       "time" : {
-        "start" : 1610508359516,
-        "stop" : 1610508360671,
-        "duration" : 1155
+        "start" : 1611041198145,
+        "stop" : 1611041198145,
+        "duration" : 0
       }
     } ]
   }

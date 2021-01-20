@@ -2,7 +2,7 @@
 
 import requests
 import readConfig
-from base.common import logger
+from base.Log import MyLog
 
 localReadConfig = readConfig.ReadConfig()                    #初始化读取配置信息的类
 
@@ -15,7 +15,8 @@ class ConfigHttp:
         host = localReadConfig.get_http("baseurl")          #url地址
         port = localReadConfig.get_http("port")             #端口号
         timeout = localReadConfig.get_http("timeout")       #响应时间
-        self.logger = logger                                  #启动log
+        self.log = MyLog.get_log()  # Log中Mylog的get_log方法          启动MyLog的get_log方法开启锁，get_log中又启动Log进行初始化
+        self.logger = self.log.get_logger()  # 与Log中最底下代码一样
         self.headers = {}                                    #定制请求头（headers），例如：content-type = application/x-www-form-urlencoded
         self.cookies = {}
         self.params = {}                                     #get方法传递参数，用于传递测试接口所要用的参数，这里我们用python中的字典形式（key：value）进行参数的传递。

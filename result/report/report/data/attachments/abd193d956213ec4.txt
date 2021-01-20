@@ -1,2 +1,0 @@
-INFO     gdzc:test_rkdsh.py:20 测试开始
-INFO     gdzc:test_rkdsh.py:40 根据存在单据号查询入库单

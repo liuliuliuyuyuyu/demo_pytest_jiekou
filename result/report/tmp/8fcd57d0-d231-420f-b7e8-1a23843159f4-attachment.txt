@@ -1,0 +1,1 @@
+[32mINFO    [0m gdzc:test_ZcZcrk.py:21 测试开始前准备
